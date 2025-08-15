@@ -1,13 +1,13 @@
-<<<<<<< HEAD
-<div align="center">
-    <h1>portfolYOU</h1>
-    <i>A beautiful portfolio Jekyll theme that works with GitHub Pages.</i>
-    <br><br>
-    <img src="screenshot.gif">
-    <sub><sup>© 2019 portfolYOU, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
-</div>
-=======
 # 🚀 rxtnshi.xyz
 
 This website is hosted via GitHub pages and its template can be found [here](https://github.com/yousinix/portfolYOU)!
->>>>>>> 349e8010c6a93cf2bfbf0a83eb996b306d818e04
+
+## I want a website like this!
+
+As mentioned above, the template used is an open-source Jeykll portfolio that works with GitHub pages. Requirements needed:
+
+- [Ruby](https://rubyinstaller.org/) (v2.7.0 or higher)
+- [Jekyll](https://jekyllrb.com/docs/installation)
+- [Bundler](https://bundler.io) (modern versions of Ruby should come with Bundler preinstalled)
+
+You can then grab the template by visiting the link I put above and follow the directions on how to test out your website [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)!
