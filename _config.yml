@@ -1,0 +1,75 @@
+### Site Settings ###
+title               : rxtnshi's portfolio!
+description         : >-
+                      I run high on coffee :coffee: and I love cats :cat:
+                      am i insane??
+baseurl             : ""
+repository          : rxtnshi/rxtnshi.xyz     
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : rxtnshi
+  image             : https://media1.tenor.com/m/uG4bWWwyCGsAAAAd/cat-evil.gif
+  email             : hello@rxtnshi.xyz
+  github            : rxtnshi
+  linkedin          : rxtnshi
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
