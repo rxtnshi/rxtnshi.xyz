@@ -1,15 +1,3 @@
 - name: Python
-  percentage: 70
+  percentage: 100
   color: primary
-
-- name: C#
-  percentage: 60
-  color: info
-
-- name: Java
-  percentage: 50
-  color: light
-
-- name: JavaScript
-  percentage: 50
-  color: secondary
